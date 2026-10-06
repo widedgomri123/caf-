@@ -4,8 +4,11 @@
   padding: 0%;
   box-sizing: border-box;
 }
-:root , html body{
+:root,
+html,
+body{
   font-family: "Open Sans", sans-serif;
+  color: var(--color-dark);
 
 
   --color-dark-1: #111;
@@ -27,7 +30,7 @@ a{
   color: var(--color-dark);
   text-decoration: none;
 }
-.spparator{
+.sepparator{
   display: block;
   margin: 20px auto;
   background: var(--color-dark-1);
@@ -118,9 +121,26 @@ p{
   margin-bottom:10px ;
 
 }
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+
+
+}
 .btn-primary{
   background:var(--color-text);
   color : var(--color-dark) ;
+}
+/* features */
+.features{
+  padding: 100px 0px;
+  overflow: auto;
+  text-align: center;
+}
+.feature{
+  float: left;
+  width:50% ;
 }
 /* reservation */
 .reservation{
