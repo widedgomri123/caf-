@@ -114,11 +114,25 @@ p{
   cursor: pointer;
   font-weight: 700;
   font-size: 14px;
+  border: 0;
 
+}
+.bnt-dark{
+  background: var( --color-dark);
+  color: var(--color-text);
+}
+.bnt-dark:hover{
+  background: var( --color-text);
+  color: var( --color-dark);
 }
 .my-10{
   margin-top: 10px;
   margin-bottom:10px ;
+
+}
+.my-20{
+  margin-top: 20px;
+  margin-bottom:20px ;
 
 }
 .container{
@@ -153,6 +167,18 @@ p{
   text-align: center;
 }
 /* footer */
+footer{
+  background:var( --bg-dark);
+  color: var( --color-text);
+  padding: 30px 0;
+  text-align: center;
+
+}
+footer p {
+  margin-bottom: 0;
+  
+
+}
 
 /* where */
 .where{
