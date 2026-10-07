@@ -142,6 +142,11 @@ p{
   float: left;
   width:50% ;
 }
+/* person */
+.person {
+  height: 500px;
+  background: url(../images/cafe3.jpg) center center/cover;
+}
 /* reservation */
 .reservation{
   padding: 100px 0;
