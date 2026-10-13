@@ -14,7 +14,7 @@ body{
   --color-dark-1: #111;
   --color-dark: #222;
   --bg-dark: #333;
-  --bg-dark-hover: #444--bg-dark: #333;;
+  --bg-dark-hover: #444;
   --color-text: white;
   
 
@@ -97,7 +97,7 @@ a{
 
 
 .header nav ul li a:hover {
-  background:var(--bg-dark-hover);
+  background: var(--bg-dark-hover);
 }
 .active{
   background: var(--bg-dark-hover);
@@ -142,7 +142,7 @@ p{
 }
 .bnt-dark{
   background: var( --color-dark);
-  color: var(--color-text);
+  color: var( --color-text);
 }
 .bnt-dark:hover{
   background: var( --color-text);
@@ -227,29 +227,27 @@ footer p {
 
 /* contact */
 .contact{
-  padding: 100px 0;
+  padding: 180px 0 100px 0;
   min-height: 100vh;
 }
 .contact-form-container{
   max-width: 600px;
   margin: auto;
 }
-.contact-form-containe form label{
+.contact-form-container form label{
   display: block;
-  font-weight: 100;
+  font-weight: 700;
 }
-.contact-form-containe form input{
+
+.contact-form-container input,textarea{
   display: block;
-  font-weight: 100;
+  width: 100%;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 3px;
 }
-contact-form-containe form input{
-  display: block;
-  font-weight: 100;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+.contact-form-container form textarea{
+  min-height: 80px;
 }
+
 
